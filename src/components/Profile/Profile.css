@@ -1,0 +1,38 @@
+.bioData {
+    width: 384px;
+    height: 286px;
+    background-color: #fff;
+    margin: 4em auto;
+    padding-top: 5em;
+    border: 1px dashed #7B61FF;
+    border-radius: 5px;
+}
+.profilePic {
+    background:  #000;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin:  auto;
+}
+.profilePic img {
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profilePic img:hover {
+    opacity: 0.7;
+}
+
+.profileInfo .name {
+    font-size: 1.7rem;
+    color: #545454;
+    margin-bottom: 0;
+}
+
+.profileInfo .username {
+visibility: hidden;
+}
+#profile_img {
+    display: none;
+}
+
